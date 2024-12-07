@@ -47,7 +47,7 @@ If the connection went as expected, you should see the network address as well a
 
 * If you want the front end to handle others contracts, just add a new component for that in `client\src\components\Demo\index.jsx` in `const demo`, following the class rules used in `client\src\components\Demo\Contract.jsx`. And make sure you have made the appropriate changes to `client\src\contexts\EthContext\EthProvider.jsx` to the correct `.json` generated after migrate.
 
-* You can do this without ganache using just:
+* Maybe is possible do this without ganache using just:
 ```
 truffle development
 ```
