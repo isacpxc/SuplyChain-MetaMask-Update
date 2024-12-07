@@ -1,6 +1,11 @@
 # What is this repository?
 This repository updates the connection code with metamask and updates the front end used to handle smart contracts in the Supply Chain project of the *Ethereum Blockchain Developer Bootcamp With Solidity (2024)* course in section 14, using the latest possible versions of the functionalities used.
 
+## Before
+Use Node.js v14 - v18
+
+## Working
+
 ```sh
 # Install Truffle and ganache globally
 $ npm install -g truffle ganache
