@@ -1,0 +1,49 @@
+.demo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.contract-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 12px; 
+  border: 1px solid #ccc;
+}
+
+.contract-content {
+  flex: 20;
+  margin-right: 10px;
+  overflow: scroll;
+}
+
+.right {
+  flex: 1;
+  padding: 10px;
+}
+
+.right div {
+  margin-bottom: 20px;
+}
+
+.right input, .right button {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.right button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.right button:hover {
+  background-color: #0056b3;
+}
