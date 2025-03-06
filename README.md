@@ -3,7 +3,7 @@ This repository updates the connection code with metamask and updates the front 
 
 ## Before
 Use Node.js v14 - v18
-And don't forget to use `npm init` in \client
+And don't forget to use `npm install` in \client
 
 ## Working
 
